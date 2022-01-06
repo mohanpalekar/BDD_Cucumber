@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="28.945">
+    <testcase classname="javatpoint Test Demo" name="Title of your scenario" time="12.451">
+        <system-out><![CDATA[Given I want to visit javatpoint website....................................passed
+And some click on Python tutorial link......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="W3School Test Demo" name="Visit W3School site" time="16.299">
+        <system-out><![CDATA[Given I want to visit W3School site.........................................passed
+And I enter the search string...............................................passed
+Then I press submit button..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
