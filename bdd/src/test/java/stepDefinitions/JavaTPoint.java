@@ -20,7 +20,7 @@ public class JavaTPoint {
 	@Given("I click on Python tutorial link")
 	public void some_click_on_python_tutorial_link() {	
 		baseClass.elementClickEvent(JavaTPointElements.python_link);
-		baseClass.assertIntegers(1,1, "JavaTPoint");
+		baseClass.assertIntegers(1,11, "JavaTPoint");
 	}
 
 
@@ -28,7 +28,7 @@ public class JavaTPoint {
 	public void i_want_to_visit_google_maps_website() {
 		baseClass.setupBrowser();
 		baseClass.launchURI_3();
-		baseClass.assertIntegers(1,1, "JavaTPoint");
+		baseClass.assertIntegers(1,2, "JavaTPoint");
 	}
 
 	@After
